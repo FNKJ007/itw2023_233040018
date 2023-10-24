@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form + table</title>
+</head>
+<body>
+    <table border="1" cellspacing="0" cellpadding="7">
+        <thead bgcolor="grey">
+            <tr>
+                <th colspan="6">INPUT DATA MAHASISWA</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+             <td>Username</td>
+             <td>:</td>
+             <td colspan="4">
+                <form>
+                    <input type="text" name="Username">
+                </form>
+             </td>
+             
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>:</td>
+                <td colspan="4">
+                    <form>
+                        <input type="password" name="password">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>Fullname</td> 
+                <td>:</td> 
+                <td colspan="4">
+                    <form>
+                        <input type="text" name="Fullname">
+                    </form>
+                </td>
+
+                
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>:</td>
+                <td colspan="4">
+                    <form>
+                        <input type="text" name="Email">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>Agama</td>
+                <td>:</td>
+                <td>
+                    <select>
+                        <option name="Agama" selected>--Agama--</option>
+                        <option value="Islam">Islam</option>
+                        <option value="Kristen">Kristen</option>
+                        <option value="Hindu">Hindu</option>
+                        <option value="Buddha">Buddha</option>
+                        <option value="katolik">Katolik</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td colspan="4">
+                    <form>
+                        <input type="radio" name="Jeniskel" value="Pria"> Pria
+                        <input type="radio" name="Jeniskel" value="Perempuan"> Perempuan
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>Hobi</td>
+                <td>:</td>
+                <td>
+                    <form>
+                        <input type="checkbox" name="Hobi" value="Musik"> Musik
+                        <input type="checkbox" name="Hobi" value="Olahraga"> Olahraga
+                        <input type="checkbox" name="Hobi" value="Gaming"> Gaming
+                        <input type="checkbox" name="Hobi" value="Lainnya"> Lainnya
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>Profil Singkat</td>
+                <td>:</td>
+                <td>
+                    <form>
+                        <textarea rows="4" cols="50" name="komentar"></textarea>
+                    </form>
+                </td>
+            </tr>
+            <tr align="RIGHT">
+                <td colspan="6">
+                    <form>
+                        <input type="submit" name="input" value="submit">
+                    </form>
+                </td>
+            </tr>
+
+
+        </tbody>
+
+    </table>
+</body>
+</html>
