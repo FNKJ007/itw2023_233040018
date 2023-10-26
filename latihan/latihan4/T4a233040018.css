@@ -126,6 +126,15 @@ body {
     font-size: 14px;
 }
 
+.img {
+    height: 230px;
+    background-image:url("buku.jpeg");
+    background-size: cover;
+    background-position: 0 -170px;
+    border-top: 5px solid salmon;
+    border-bottom: 5px solid skyblue;
+
+}
 .footer {
     background-color:black;
     padding: 10px;
