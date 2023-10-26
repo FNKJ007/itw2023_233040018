@@ -49,14 +49,14 @@ table {
 
 body {
     font:16px/28px arial,sans-serif;
-    background-color: #eaeaea;
-    background: whitesmoke;
+    background-image:url("gambar.png");
 }
+    
 
 .container {
-    width: 800px;
+    width: 1200px;
     margin: auto;
-    background-color: white;
+    background-color: darksalmon;
 }
 
 .header {
@@ -77,7 +77,7 @@ body {
 
 .header a {
     text-decoration: none;
-    color: salmon;
+    color: skyblue;
     padding: 3px;
 
 }
@@ -112,7 +112,7 @@ body {
 
 .conten .penulis a {
     text-decoration: none;
-    color: salmon;
+    color: skyblue;
 
 }
 
@@ -123,16 +123,16 @@ body {
 
 .conten p {
     margin-top: 20px;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .img {
     height: 230px;
     background-image:url("buku.jpeg");
     background-size: cover;
-    background-position: 0 -170px;
-    border-top: 5px solid salmon;
-    border-bottom: 5px solid skyblue;
+    background-position: 0 -300px;
+    border-top: 5px solid skyblue;
+    border-bottom: 5px solid salmon;
 
 }
 .footer {
@@ -145,6 +145,8 @@ body {
     text-align: center;
     font-size: 11px;
 }
+
+
 
 
 
