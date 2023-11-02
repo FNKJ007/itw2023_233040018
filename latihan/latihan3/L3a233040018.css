@@ -1,0 +1,22 @@
+body {
+    background-color: aqua;
+}
+
+.container {
+    
+    font-family: Georgia;    
+}
+
+.header .judul {
+    font-family:"Comic Sans MS", cursive; 
+    font-size: 60px;
+    color: darkblue;
+}
+
+.header .Tanggal {
+    text-align: right;
+    font-style: italic;
+}
+p {
+    text-align: justify;
+}

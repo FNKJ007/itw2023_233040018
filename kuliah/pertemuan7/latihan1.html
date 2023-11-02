@@ -6,20 +6,25 @@
     <title>latihan 1</title>
    <style>
     .kotak {
-        width: 350px;
-        height: 350px;
+        width:150px;
+        height: 150px;
         background-color:salmon;
         margin: 50px auto;
         /* border-radius: 50px; */
         /* border-top-right-radius:50px; 
          border-bottom-left-radius: 50px; */
          /* box-shadow:<x-offset><y-offset><blur>[size]<color>; */
-            box-shadow: -10px 15px 10px 10px  red, 10px -15px 10px 10px skyblue, -10px 15px 10px 20px skyblue, 10px -15px 10px 20px red, -10px -15px 10px 10px red, -10px 15px 10px 10px skyblue;
-            border-radius:  175px;
+
+            box-shadow:  0px 0px 0px 10px  red, 0px 0px 0px 20px yellow, 0px 0px 0px 30px green, 0px 0px 0px 40px blue;
+            transition: 3s
             
+         
     }
-    .kotak :hover{
-        transition: rotated(1);
+    .kotak:hover{
+        border-radius: 50px;
+        scale: 0;
+        rotate:360deg;
+        animation: 2s;
     }
    </style>
 </head>
